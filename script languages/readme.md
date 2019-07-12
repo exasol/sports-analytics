@@ -27,12 +27,12 @@ https://www.exasol.com/portal/display/TRAINING/BucketFS
 
 2) Pushing it via CURL
 ```bash
-$ curl -vX PUT -T pythonclient.tar.gz http://w:writepw@192.168.56.104:2580/py/pythonclient.tar.gz
+$ curl --user w -v -X PUT -T python3-ds-EXASOL-6.1.0_release.tar.gz http://192.168.164.130:1234/default/python3-ds-EXASOL-6.0.0_release.tar.gz
 ```
 
 * Inform the SQL compiler about the new language container and execute following statement in a SQL session
 ```SQL
-alter session set script_languages = 'PYTHON=builtin_python R=builtin_r JAVA=builtin_java PY2=localzmq+protobuf:///bfsdefault/default/EXAClusterOS/ScriptLanguages-6.0.0#buckets/bfsdefault/py/pythonclient/python2/client PY3=localzmq+protobuf:///bfsdefault/default/EXAClusterOS/ScriptLanguages-6.0.0#buckets/bfsdefault/py/pythonclient/python3/client';
+ALTER SESSION SET SCRIPT_LANGUAGES = 'PYTHON=builtin_python R=builtin_r JAVA=builtin_java PYTHON3=localzmq+protobuf:///bfsdefault/default/python3-ds-EXASOL-6.1.0_release?lang=python#buckets/bfsdefault/default/python3-ds-EXASOL-6.1.0_release/exaudf/exaudfclient_py3';
 ```
 
 Note: The alter session statements expects the script language container in the Default Bucket of Exasol Community Edition.
