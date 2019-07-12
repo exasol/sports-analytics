@@ -35,6 +35,8 @@ $ curl -vX PUT -T pythonclient.tar.gz http://w:writepw@192.168.56.104:2580/py/py
 alter session set script_languages = 'PYTHON=builtin_python R=builtin_r JAVA=builtin_java PY2=localzmq+protobuf:///bfsdefault/default/EXAClusterOS/ScriptLanguages-6.0.0#buckets/bfsdefault/py/pythonclient/python2/client PY3=localzmq+protobuf:///bfsdefault/default/EXAClusterOS/ScriptLanguages-6.0.0#buckets/bfsdefault/py/pythonclient/python3/client';
 ```
 
+Note: The alter session statements expects the script language container in the Default Bucket of Exasol Community Edition.
+This has to be adapted, if you use a different BucketFS.
 
 Note:
 If you are using alter session, you need to re-issue the command above when you start a new session.
