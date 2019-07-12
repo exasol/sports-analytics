@@ -13,8 +13,11 @@ Please follow the corresponding blog post for a detailed walk thro
 
 ## Usage
 
-At first you have to publish the provided sports analytics Python scripting-language Docker container
-to your Exasol instance. This container provides every Python package needed for the different examples.
+1) You have to publish the provided sports analytics Python scripting-language Docker container
+to your Exasol instance. This container provides every Python packages needed for the different examples.
+
+2) Choose your showcase ;)
+
 
 
 
