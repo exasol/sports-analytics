@@ -16,7 +16,6 @@ create table voronoi_showcase.match_position
 	);
 
 --import position sample data
-import into XSPORTS_DFL.MATCH_POSITION_EXAMPLE
-from local csv file '[path]/position_example.csv'
-column separator = ';'
-;
+import into voronoi_showcase.match_position
+	from local csv file 'c:\temp\position_example.csv'
+	column separator = ';';
