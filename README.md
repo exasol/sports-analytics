@@ -20,6 +20,10 @@ to your Exasol instance. This container provides every Python packages needed fo
 
 
 
+## Showcases
 
+### Voronoi diagramm for position data
 
-![Voronoi](/screenshots/voronoi3.gif)
+Voronoi diagramms can be used to indentify the space on the pitch controlled by a single player.
+
+![Voronoi](/screenshots/Voronoi3.gif)
