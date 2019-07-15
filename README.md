@@ -25,5 +25,6 @@ to your Exasol instance. This container provides every Python packages needed fo
 ### Voronoi diagramm for position data
 
 Voronoi diagramms can be used to indentify the space on the pitch controlled by a single player.
+The coresponding blog post can be found at the Exasol homepage: https://www.exasol.com/en/blog/controlling-space-in-football/
 
 ![Voronoi](/screenshots/Voronoi3.gif)
