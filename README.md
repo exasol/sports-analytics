@@ -22,3 +22,4 @@ to your Exasol instance. This container provides every Python packages needed fo
 
 
 
+![Voronoi](/screenshots/voronoi3.gif)
