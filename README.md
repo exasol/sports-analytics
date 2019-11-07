@@ -28,3 +28,11 @@ Voronoi diagramms can be used to indentify the space on the pitch controlled by 
 The coresponding blog post can be found at the Exasol homepage: https://www.exasol.com/en/blog/controlling-space-in-football/
 
 ![Voronoi](/screenshots/Voronoi3.gif)
+
+
+### Convex hull for position data
+
+In football defending teams want to have a compact shape to defend the dangerous areas in front of the goal. Attacking teams want to play wide, to strech the defence. A convex hull diagram can be used to visualize this team shape. Using the stretch factor as indicator of the compactness helps to measure the time, how a long team needs to get the correct shape during a transition phase. 
+
+![Convex Hull](/screenshots/convex_hull.gif)
+
