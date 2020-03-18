@@ -18,4 +18,4 @@ A collection of scripts to rebuild the Convex Hull show case.
 
 1) Import position data in showcase schema
 2) Create Convex Hull User Defined Function (UDF)
-3) Create MATCH_CONVEX_HULL table for Tableau report
+3) Create MATCH_CONVEX_HULL table for Tableau report (TBD)
